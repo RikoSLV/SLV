@@ -1,7 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathJax Beispiel</title>
+    <script type="text/javascript" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.2</p>
+    <h1>Schwingungsgleichung eines Balkens</h1>
+    <p>
+        Die Differentialgleichung für die Schwingungen eines Balkens unter einer beliebigen Last lautet:
+    </p>
+    <p>
+        \[
+        \frac{\partial^2}{\partial t^2} \left( \frac{\partial^2 w(x,t)}{\partial x^2} \right) + \frac{EI}{\rho A} \frac{\partial^4 w(x,t)}{\partial x^4} = 0
+        \]
+    </p>
+    <p>
+        Dabei ist:
+    </p>
+    <ul>
+        <li><strong>w(x,t)</strong>: Die Verschiebung des Balkens in der x- und t-Richtung</li>
+        <li><strong>E</strong>: Der Elastizitätsmodul des Materials</li>
+        <li><strong>I</strong>: Das Flächenträgheitsmoment des Balkens</li>
+        <li><strong>ρ</strong>: Die Dichte des Materials</li>
+        <li><strong>A</strong>: Die Querschnittsfläche des Balkens</li>
+    </ul>
 </body>
 </html>
